@@ -64,7 +64,7 @@ In the previously created folder:
 h2. Special Thanks
 
 * *Pat Nakajima* for creating "slidedown":http://github.com/nakajima/slidedown
-* *Matias Korhonen*: for forcing me to publish Scarlet and for the help
+* *Matias Korhonen* for forcing me to publish Scarlet and for the help
 
 h2. Copyright
 
@@ -78,7 +78,7 @@ Copyright (c) 2009 João Carlos Cardoso, excluding the following files:
 
 * Files under *lib/scarlet/html/templates/stylesheets/*:
 ** *slides.css*: Based on the stylesheet for "slidedown":http://github.com/nakajima/slidedown created by Pat Nakajima
-** *syntax_***.css*: Generated with "Pygments":http://pygments.org/
+** <strong>syntax_*.css</strong>: Generated with "Pygments":http://pygments.org/
 
 h2. License
 
