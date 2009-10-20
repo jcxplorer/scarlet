@@ -1,0 +1,85 @@
+h1. Scarlet
+
+Scarlet is a slideshow generator that uses Textile as a markup language.
+
+h2. Current Status
+
+*Scarlet is still very young and immature.* The very basic functionality is in place, and should work well most of the time. You probably shouldn't rely too much on it for slideshows that will need to be maintained, because the application design is still undergoing changes.
+
+h2. Features
+
+* *Syntax Highlighting*: If you have "Pygments":http://pygments.org/ installed, Scarlet will automatically highlight your code.
+* *Custom Templates*: Create and re-use your own templates for the slideshows.
+
+h2. TODO
+
+* Finish writing tests
+* PDF generation
+* Simple style customization
+
+h2. Usage
+
+h3. Step 1 – Install Scarlet
+
+<pre>sudo gem install scarlet</pre>
+
+h3. Step 2 – Create the directory for the slideshow(s) and copy the javascripts and stylesheets
+
+<pre>scarlet -g my_slideshow</pre>
+
+h3. Step 3 – Create and save your slideshow file with Textile in the previously created folder
+
+<pre>
+!SLIDE cover
+
+h1. Scarlet
+
+Welcome to Scarlet!
+
+!SLIDE
+
+h1. What is it?
+
+Scarlet is a Textile slideshow generator with syntax highlighting. Written in Ruby.
+
+!SLIDE
+
+h1. Why Ruby?
+
+Because it's simple! Here is some Ruby code:
+
+@@@ ruby
+  puts "Hello, Scarlet!"
+@@@
+</pre>
+
+The previous example contains three slides. The first slide has an XHTML class named "cover".
+
+h3. Step 4 – Convert your slideshow file to XHTML
+
+In the previously created folder:
+
+<pre>scarlet slideshow.textile > slideshow.html</pre>
+
+h2. Special Thanks
+
+* *Pat Nakajima* for creating "slidedown":http://github.com/nakajima/slidedown
+* *Matias Korhonen*: for forcing me to publish Scarlet and for the help
+
+h2. Copyright
+
+Copyright (c) 2009 João Carlos Cardoso, excluding the following files:
+
+* Files under *lib/scarlet/html/templates/javascripts/*:
+** *jquery.easing.js*: George McGinley Smith
+** *jquery.hash-changed.js*: Pat Nakajima
+** *jquery.min.js*: John Resig and the jQuery Team
+** *slides.js*: Pat Nakajima. Edited by João Carlos Cardoso.
+
+* Files under *lib/scarlet/html/templates/stylesheets/*:
+** *slides.css*: Based on the stylesheet for "slidedown":http://github.com/nakajima/slidedown created by Pat Nakajima
+** *syntax_***.css*: Generated with "Pygments":http://pygments.org/
+
+h2. License
+
+Scarlet is released under the MIT License (see the LICENSE file).

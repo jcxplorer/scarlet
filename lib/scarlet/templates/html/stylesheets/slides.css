@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 38px;
+  color: #111;
+  background: #fff;
+}
+
+table {
+	font-size: 0.8em;
+	border: 4px solid #555753;
+}
+
+th, td {
+	border: 2px solid #555753;
+	padding: 5px;
+	margin: 0;
+}
+
+pre {
+  font-family: monospace;
+  font-size: 0.8em;
+}
+
+blockquote {
+  padding: 0 0 0 1em;
+  font-size: 1.4em;
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+
+ul {
+  padding: 0 0 0 1em;
+}
+
+#slides {
+  overflow: hidden;
+  text-align: left;
+}
+
+#track {
+  width: 1000000px;
+  overflow: hidden;
+}
+
+#track > div {
+  float: left;
+  overflow: hidden;
+}
+
+#track > div .content {
+  margin: 0 0.6em;
+}
+
+#track > div .content h1 {
+  margin-bottom: 0.1em;
+}
+
+#track > div .content h1 strong {
+  text-decoration: underline;
+}
+
+.code {
+	border: 3px solid #555753;
+	background: #eeeeec;
+	padding: 20px;
+	margin: 10px 0 20px 0;
+}
