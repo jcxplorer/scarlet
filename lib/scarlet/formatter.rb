@@ -3,7 +3,8 @@ module Scarlet
     DEFAULT = Scarlet::Formatters::HTML
     FORMATTERS = {
       :html => Scarlet::Formatters::HTML,
-      :xhtml => Scarlet::Formatters::HTML
+      :xhtml => Scarlet::Formatters::HTML,
+      :latex => Scarlet::Formatters::LATEX
     }
     
     def Formatter.for(format)
