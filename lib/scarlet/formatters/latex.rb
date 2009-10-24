@@ -6,7 +6,7 @@ module Scarlet::Formatters
     
     def text
       process_code do |code, language, before, after|
-        before + "<notextile>" + Scarlet::Highlighter.run(code, :format => "latex", :lexer => language) + "</notextile>" + after
+        before + "<notextile>" + Scarlet::Highlighter.run(code, :format => "latex", :lexer => language, :arguments => "-P verboptions='fontfamily=lcmtt'") + "</notextile>" + after
       end
       
       RedCloth.new(slide.text).to_latex

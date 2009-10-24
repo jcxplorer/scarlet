@@ -6,7 +6,8 @@ module Scarlet
     def self.run(text, options={})
       options[:format] ||= "html"
       options[:lexer] ||= "text"
-      pid, stdin, stdout, stderr = Open4.popen4("pygmentize -f #{options[:format]} -l #{options[:lexer]}")
+      options[:arguments] ||= ""
+      pid, stdin, stdout, stderr = Open4.popen4("pygmentize -f #{options[:format]} -l #{options[:lexer]} #{options[:arguments]}")
       stdin.puts(text)
       stdin.close
       stdout.read.strip
