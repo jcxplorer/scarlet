@@ -17,6 +17,9 @@ module Scarlet
       when :latex
         template = File.read(options[:template] || Scarlet::Formatters::LATEX.default_template)
         ERB.new(template).result(binding)
+      when :pdf
+        template = File.read(options[:template] || Scarlet::Formatters::PDF.default_template)
+        Scarlet::Formatters::PDF.from_latex(ERB.new(template).result(binding))
       else
         raise "Format not supported."
       end

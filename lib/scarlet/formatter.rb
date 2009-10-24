@@ -4,7 +4,8 @@ module Scarlet
     FORMATTERS = {
       :html => Scarlet::Formatters::HTML,
       :xhtml => Scarlet::Formatters::HTML,
-      :latex => Scarlet::Formatters::LATEX
+      :latex => Scarlet::Formatters::LATEX,
+      :pdf => Scarlet::Formatters::PDF
     }
     
     def Formatter.for(format)
