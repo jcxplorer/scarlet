@@ -10,11 +10,11 @@ h2. Features
 
 * *Syntax Highlighting*: If you have "Pygments":http://pygments.org/ installed, Scarlet will automatically highlight your code.
 * *Custom Templates*: Create and re-use your own templates for the slideshows.
+* *PDF and LaTeX Generation*: Highly experimental
 
 h2. TODO
 
 * Finish writing tests
-* PDF generation
 * Simple style customization
 
 h2. Usage
@@ -61,10 +61,14 @@ In the previously created folder:
 
 <pre>scarlet slideshow.textile > slideshow.html</pre>
 
+h2. Contributors
+
+* *Matias Korhonen*: PDF and LaTeX generation
+
 h2. Special Thanks
 
 * *Pat Nakajima* for creating "slidedown":http://github.com/nakajima/slidedown
-* *Matias Korhonen* for forcing me to publish Scarlet and for the help
+* *Matias Korhonen* for forcing me to publish Scarlet
 
 h2. Copyright
 
