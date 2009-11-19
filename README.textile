@@ -10,7 +10,7 @@ h2. Features
 
 * *Syntax Highlighting*: If you have "Pygments":http://pygments.org/ installed, Scarlet will automatically highlight your code.
 * *Custom Templates*: Create and re-use your own templates for the slideshows.
-* *PDF and LaTeX Generation*: Highly experimental
+* *PDF and LaTeX Generation*: Highly experimental. Patches are welcome and very appreciated.
 
 h2. TODO
 
