@@ -13,6 +13,7 @@ begin
     
     gemspec.add_dependency('open4', '>= 0.9.6')
     gemspec.add_dependency('RedCloth', '>= 4.2.2')
+    gemspec.add_dependency('rtex', '>= 2.1.1')
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
