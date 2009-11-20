@@ -6,7 +6,7 @@ module Scarlet::Formatters
     
     def text
       process_code do |code, language, before, after|
-        before + "<notextile><div class=\"code\">" + Scarlet::Highlighter.run(code, :format => "html", :lexer => language) + "</div></notextile>" + after
+        "#{before}<notextile><div class=\"code\">" + Scarlet::Highlighter.run(code, :format => "html", :lexer => language) + "</div></notextile>#{after}"
       end
       
       RedCloth.new(slide.text).to_html
