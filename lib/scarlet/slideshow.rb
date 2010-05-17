@@ -32,7 +32,7 @@ module Scarlet
         enumerable.lines.each do |line|
           if line.include? "!SLIDE"
             slides << Scarlet::Slide.new
-            slides.last.classes = line.delete("!SLIDE").strip
+            slides.last.classes = line.gsub("!SLIDE", "").strip
           else
             next if slides.empty?
             slides.last.text << line
