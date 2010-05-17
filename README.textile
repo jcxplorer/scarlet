@@ -65,6 +65,7 @@ In the previously created folder:
 h2. Contributors
 
 * *Matias Korhonen*: PDF and LaTeX generation
+* *Blake Smith*: Slide titles and bug fixes
 
 h2. Special Thanks
 
