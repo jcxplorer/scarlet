@@ -1,6 +1,6 @@
 module Scarlet
   class Slide
-    attr_accessor :classes, :text
+    attr_accessor :classes, :text, :title
     attr_reader :identifier
     
     def initialize

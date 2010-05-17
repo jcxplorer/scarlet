@@ -33,6 +33,8 @@ module Scarlet
           if line.include? "!SLIDE"
             slides << Scarlet::Slide.new
             slides.last.classes = line.gsub("!SLIDE", "").strip
+          elsif line.include? "!TITLE"
+            slides.last.title = line.gsub("!TITLE", "").strip
           else
             next if slides.empty?
             slides.last.text << line

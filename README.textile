@@ -31,6 +31,7 @@ h3. Step 3 – Create and save your slideshow file with Textile in the previousl
 
 <pre>
 !SLIDE cover
+!TITLE Welcome to Scarlet!
 
 h1. Scarlet
 

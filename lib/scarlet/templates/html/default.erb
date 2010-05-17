@@ -18,7 +18,7 @@
 		<div id="track">
 			<% for slide in @slides %>
 				<div class="<%= slide.classes %>">
-					<div id="<%= slide.identifier %>" class="content">
+          <div title="<%= slide.title %>" id="<%= slide.identifier %>" class="content">
 						<%= slide.text %>
 					</div>
 				</div>
