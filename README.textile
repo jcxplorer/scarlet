@@ -76,7 +76,7 @@ h4. Keyboard Navigation:
 h2. Contributors
 
 * *Matias Korhonen*: PDF and LaTeX generation
-* *Blake Smith*: Slide titles and bug fixes
+* *Blake Smith*: Slide titles, awesome navigation, and bug fixes
 
 h2. Special Thanks
 
@@ -91,7 +91,7 @@ Copyright (c) 2009 João Carlos Cardoso, excluding the following files:
 ** *jquery.easing.js*: George McGinley Smith
 ** *jquery.hash-changed.js*: Pat Nakajima
 ** *jquery.min.js*: John Resig and the jQuery Team
-** *slides.js*: Pat Nakajima. Edited by João Carlos Cardoso.
+** *slides.js*: Pat Nakajima. Edited by Blake Smith and João Carlos Cardoso.
 
 * Files under *lib/scarlet/html/templates/stylesheets/*:
 ** *slides.css*: Based on the stylesheet for "slidedown":http://github.com/nakajima/slidedown created by Pat Nakajima
