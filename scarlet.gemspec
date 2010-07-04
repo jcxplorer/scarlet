@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{scarlet}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Joao Carlos Cardoso"]
-  s.date = %q{2010-05-17}
+  s.date = %q{2010-07-04}
   s.default_executable = %q{scarlet}
   s.description = %q{Generates XHTML slideshows from text files using Textile for markup. Does syntax highlighting if Pygments is installed.}
   s.email = %q{mail@joao-carlos.com}
