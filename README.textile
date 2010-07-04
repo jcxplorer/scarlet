@@ -62,6 +62,17 @@ In the previously created folder:
 
 <pre>scarlet slideshow.textile > slideshow.html</pre>
 
+h3. Step 5 - Start the Show!
+
+Open the converted html file in your browser of choice and bedazzle your audience with your über presentation skills.
+
+h4. Keyboard Navigation:
+
+* Right/Enter/Space Bar - Forward slide
+* Left - Backward slide
+* # g - Jump to slide # (EG: 5g - jump to slide 5)
+* Esc - Go to the first slide
+
 h2. Contributors
 
 * *Matias Korhonen*: PDF and LaTeX generation
