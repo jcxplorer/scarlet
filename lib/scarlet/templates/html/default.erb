@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<title>Slides</title>
+	<title><%= @slides.first ? @slides.first.title : "Slides" %></title>
 	<link href="./stylesheets/slides.css" media="screen" rel="stylesheet" charset="utf-8" type="text/css" />
 	<link href="./stylesheets/syntax_friendly.css" media="screen" rel="stylesheet" charset="utf-8" type="text/css" />
   <script src="./javascripts/jquery.min.js" type="text/javascript"></script>
