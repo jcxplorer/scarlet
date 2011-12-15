@@ -19,3 +19,8 @@ begin
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
 end
+
+task :prereqs do
+  sh "gem install rtex open4 RedCloth"
+end
+
